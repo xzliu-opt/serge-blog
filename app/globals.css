@@ -162,3 +162,17 @@ body {
   border-radius: 12px;
   margin: 1.5em 0;
 }
+
+/* ─── Project card ─────────────────────────────────────── */
+.project-card {
+  position: relative;
+  background: #F5F5F7;
+  border-radius: 24px;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}

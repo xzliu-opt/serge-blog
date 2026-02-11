@@ -39,7 +39,7 @@ export default async function PostPage({
     const post = getPostBySlug(slug);
 
     return (
-        <article className="animate-fade-in">
+        <article className="animate-fade-in max-w-2xl mx-auto">
             {/* Back link */}
             <Link
                 href="/"
